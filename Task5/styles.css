@@ -1,0 +1,48 @@
+body {
+    background: linear-gradient(135deg, #2c2c6c, #2f1fe2);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh;
+}
+
+.container {
+    padding: 20px;
+    max-width: 700px;
+    margin: auto;
+    width: 1000px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2em;
+    margin: 10px 0;
+}
+
+header h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+    color: #ffeb3b;
+}
+
+main p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+main ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    margin-top: 20px;
+}
+
+main ul li {
+    margin-bottom: 10px;
+    font-size: 1em;
+}
+
+main ul li strong {
+    color: #ffeb3b;
+}
